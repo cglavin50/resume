@@ -9,8 +9,8 @@
     // Left side - Name and title
     [
       #text(size: 24pt, weight: "bold")[Cooper Glavin] \
-      #v(0.1em)
-      #text(size: 14pt, style: "italic")[#title]
+      #v(0.05em)
+      #text(size: 16pt, style: "italic")[#title]
     ],
 
     // Right side - Contact information
@@ -27,7 +27,4 @@
       ]
     ]
   )
-
-  // Add a line separator below the header
-  line(length: 100%, stroke: 0.5pt + gray)
 }
