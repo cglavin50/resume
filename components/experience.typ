@@ -3,7 +3,7 @@
   grid(
     columns: (1fr, auto),
     align: (left, right),
-    text(size: 12pt, weight: "bold")[#title], text(size: 10pt, style: "italic")[#duration],
+    text(size: 12pt, weight: "bold")[#title], text(size: 10pt)[#duration],
   )
 
   // Company and location on same line

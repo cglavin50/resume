@@ -9,7 +9,7 @@
     // Left side - Name and title
     [
       #text(size: 24pt, weight: "bold")[Cooper Glavin] \
-      #v(0.05em)
+      #v(-0.75em)
       #text(size: 16pt, style: "italic")[#title]
     ],
 
