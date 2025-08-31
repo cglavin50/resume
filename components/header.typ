@@ -1,5 +1,4 @@
-#import "@preview/fontawesome:0.6.0": *
-
+#import "../requirements.typ": *
 #let header(title) = {
   grid(
     columns: (1fr, auto),

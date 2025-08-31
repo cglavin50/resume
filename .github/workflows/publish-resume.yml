@@ -1,0 +1,39 @@
+name: Publish Resume
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  build-resume:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Typst
+      uses: typst-community/setup-typst@v4
+      with:
+        cache-dependency-path: requirements.typ
+
+    - name: Install Fontist
+      uses: fontist/setup@v2
+
+    - name: Install JetBrains Mono
+      run: fontist install "JetBrains Mono"
+
+    - name: Compile resume
+      run: typst compile main.typ resume.pdf
+      
+    - name: Upload PDF as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: resume-pdf
+        path: resume.pdf
+        retention-days: 30
+

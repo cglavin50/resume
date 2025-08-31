@@ -15,13 +15,12 @@
   )
 
   // Task bullet points with dots and indentation
+  v(-0.5em)
   pad(left: 1.5em)[
     #for task in tasks [
       • #task \
     ]
   ]
-
-  // Add space between entries
 }
 
 #let experience-section() = {
@@ -33,15 +32,13 @@
   // Experience entries with indentation
   pad(left: 1em)[
     #experience-entry(
-      "Senior Software Engineer",
-      "Tech Innovations Inc.",
-      "Jan 2022 - Present",
-      "San Francisco, CA",
+      "Software Developer",
+      "Easy Dynamics Corp",
+      "Jul 2024 -- Present",
+      "McLean, VA",
       (
-        "Led development of scalable microservices architecture serving 1M+ users",
-        "Mentored junior developers and conducted code reviews",
-        "Implemented CI/CD pipelines reducing deployment time by 60%",
-        "Collaborated with product team to deliver features ahead of schedule",
+        "Implemented Auth0 integration with *Python (FastAPI)* for user-management system, leading to first sale of new web application *(TypeScript, React, MUI)*.",
+        "Developed responsive, mobile-friendly pages with *TypeScript and React*",
       ),
     )
 
