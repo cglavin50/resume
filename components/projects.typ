@@ -18,9 +18,6 @@
       • #bullet \
     ]
   ]
-
-  // Add space between entries
-  v(0.8em)
 }
 
 #let projects-section() = {
