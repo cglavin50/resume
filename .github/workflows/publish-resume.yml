@@ -16,20 +16,14 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       
-    - name: Setup Typst
-      uses: typst-community/setup-typst@v4
+    - name: Install Nix devShell (flake)
+      uses: cachix/install-nix-action@v25
       with:
-        cache-dependency-path: requirements.typ
+        nix_path: nixpkgs=channel:nixos-unstable
 
-    - name: Install Fontist
-      uses: fontist/setup@v2
+    - name: Compile with Nix flake
+      run: nix develop --command typst compile main.typ resume.pdf
 
-    - name: Install JetBrains Mono
-      run: fontist install "JetBrains Mono"
-
-    - name: Compile resume
-      run: typst compile main.typ resume.pdf
-      
     - name: Upload PDF as artifact
       uses: actions/upload-artifact@v4
       with:
