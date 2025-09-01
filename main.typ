@@ -5,6 +5,7 @@
 #import "components/skills.typ": *
 
 #set page("us-letter", margin: 0.75in)
+#set text(font: "Liberation Sans")
 
 #header("Software Engineer")
 

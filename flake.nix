@@ -14,11 +14,11 @@
     flake-utils.lib.eachDefaultSystem (system: let
       # grab nixpkgs for our system
       pkgs = nixpkgs.legacyPackages.${system};
-
       # Installing fonts - see https://nix.dev/guides/recipes/continuous-integration-github-actions
       fontsConf = pkgs.makeFontsConf {
         fontDirectories = [
-          pkgs.nerd-fonts.droid-sans-mono
+          pkgs.liberation_ttf
+          pkgs.font-awesome
         ];
       };
     in {
@@ -26,7 +26,9 @@
         buildInputs = with pkgs; [
           typst
           # tinymist
-          nerd-fonts.droid-sans-mono
+          # nerd-fonts.droid-sans-mono
+          font-awesome
+          liberation_ttf
         ];
 
         shellHook = ''
