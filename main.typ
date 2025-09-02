@@ -16,6 +16,7 @@
 #projects-section()
 
 #skills-section(
-  languages: "Typescript, Terraform, C#, Python, Java, Go, Bash",
+  languages: "Typescript, Terraform, C# (.NET), Python, Java, Go, Bash",
+  technologies: "Docker, GitHub Actions, Azure, AWS",
   certifications: "AWS Cloud Practitioner, Terraform Associate, Azure Fundamentals (AZ-900)",
 )

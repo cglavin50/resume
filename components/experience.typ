@@ -25,7 +25,7 @@
 
 #let experience-section() = {
   // Section title
-  text(size: 18pt)[Experience]
+  text(size: 14pt)[Experience]
   v(-1em)
   line(length: 100%, stroke: 0.5pt + gray)
 

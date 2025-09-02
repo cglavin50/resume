@@ -1,6 +1,6 @@
 #let education-section() = {
   // Section title
-  text(size: 18pt)[Education]
+  text(size: 14pt)[Education]
   v(-1em)
   line(length: 100%, stroke: 0.5pt + gray)
 

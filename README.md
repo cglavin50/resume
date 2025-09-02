@@ -4,6 +4,8 @@ This respostiory handles the management of my resume, powered with Typst. The mo
 
 ## To Do
 
--[ ] Build out basic resume
+-[ ] Build out basic resume structure
+ [ ] Populate with actual experience
 -[ ]  Modularize
--[ ]  Publish with GH Actions
+-[x]  Publish with GH Actions
+    - [ ] Automate embedding resume in targets?

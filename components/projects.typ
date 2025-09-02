@@ -21,7 +21,7 @@
 }
 
 #let projects-section() = {
-  text(size: 18pt)[Projects]
+  text(size: 14pt)[Projects]
   v(-1em)
   line(length: 100%, stroke: 0.5pt + gray)
 
@@ -36,8 +36,22 @@
       ),
       duration: "2025",
       (
-        "first",
-        "second",
+        [Designed and deployed a containerized homelab infrastructure with *Ansible* for host provisioning, UFW for firewall automation, and *Docker* for service configuration],
+        [Engineered an automated *CI/CD* pipeline with *Github Action* self-hosted runners for deployment version-control],
+        [Built real-time observability stack with *Prometheus*, *Grafana*, and *Alert Manager* - integrated with Discord to provide incident notifications],
+      ),
+    )
+    #project-entry(
+      "Mens Ultimate Frisbee Club Slack Bot",
+      (
+        "Python (Flask)",
+        "Docker",
+        "AWS",
+      ),
+      duration: "June 2023 - May 2024",
+      (
+        [Created a fitness tracker bot with leaderboards and activity logs using *Python* (Flask) and the Slack API],
+        [Deployed with *Docker* to *AWS*, using *terraform* to provision AWS VPC, Lightsail Instance, static IP, and automated backups],
       ),
     )
   ]
