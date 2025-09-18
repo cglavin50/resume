@@ -1,0 +1,64 @@
+header:
+  title: "Full Stack Software Engineer"
+
+experiences:
+  - role: "Software Developer / DevSecOps Engineer"
+    company: "Easy Dynamics Corp"
+    duration: "Jul 2024 -- Present"
+    location: "McLean, VA"
+    bullets:
+      - "Developed scalable web applications using *Python*, *TypeScript*, and *React*, serving government clients with high availability requirements."
+      - "Built RESTful APIs and microservices with *.NET Core*, improving system performance by 40%."
+      - "Collaborated with cross-functional teams to deliver secure, maintainable software solutions."
+      - "Implemented automated testing and code quality practices, reducing bug reports by 60%."
+
+  - role: "Research Assistant"
+    company: "Georgetown University"
+    duration: "Jan 2023 -- May 2024"
+    location: "Washington, DC"
+    bullets:
+      - "Built a *peer-to-peer* messaging system in *Go* (Libp2p), implementing end-to-end encryption and real-time communication features."
+      - "Developed network protocol analysis tools, contributing to research on secure communication systems."
+
+  - role: "Software Engineer Intern"
+    company: "Heimdall Data"
+    duration: "Aug 2023 -- Apr 2024"
+    location: "Newark, CA"
+    bullets:
+      - "Improved logging and query caching in a *JDBC database proxy*, boosting reliability and performance."
+      - "Automated AWS product registration workflows via APIs and EC2 metadata, increasing customer retention and sales."
+
+  - role: "Solutions Architect Intern"
+    company: "Telos Corp"
+    duration: "Jun 2022 -- Oct 2022"
+    location: "Ashburn, VA"
+    bullets:
+      - "Automated security ingestion pipeline with *Python + AWS Lambda*, adding Wazuh support for risk and compliance automation platform."
+
+projects:
+  - name: "Full-Stack Task Manager"
+    technologies: ["React", "Node.js", "PostgreSQL", "Docker"]
+    duration: "2024"
+    bullets:
+      - "Built a collaborative task management web app with *React* frontend and *Node.js/Express* backend"
+      - "Implemented real-time updates using *WebSockets* and user authentication with *JWT*"
+      - "Deployed with *Docker* containers and *PostgreSQL* database, supporting 100+ concurrent users"
+
+  - name: "Mens Ultimate Frisbee Club Slack Bot"
+    technologies: ["Python (Flask)", "Docker", "AWS"]
+    duration: "June 2023 - May 2024"
+    bullets:
+      - "Created a fitness tracker bot with leaderboards and activity logs using *Python* (Flask) and the Slack API"
+      - "Deployed with *Docker* to *AWS*, using *terraform* to provision AWS VPC, Lightsail Instance, static IP, and automated backups"
+
+  - name: "Personal Portfolio Website"
+    technologies: ["TypeScript", "Next.js", "Tailwind CSS"]
+    duration: "2023"
+    bullets:
+      - "Developed responsive portfolio site with *Next.js* and *TypeScript*, featuring dynamic project showcase"
+      - "Implemented modern UI with *Tailwind CSS* and optimized for performance with 95+ Lighthouse scores"
+
+skills:
+  languages: "TypeScript, Python, C# (.NET), Java, Go, Bash"
+  technologies: "React, Node.js, Docker, AWS, Azure, PostgreSQL"
+  certifications: "AWS Cloud Practitioner, Azure Fundamentals (AZ-900)"
