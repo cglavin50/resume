@@ -51,6 +51,13 @@ projects:
       - "Created a fitness tracker bot with leaderboards and activity logs using *Python* (Flask) and the Slack API"
       - "Deployed with *Docker* to *AWS*, using *terraform* to provision AWS VPC, Lightsail Instance, static IP, and automated backups"
 
+  - name: "Mens Ultimate Frisbee Club Slack Bot"
+    technologies: ["Python (Flask)", "Docker", "AWS"]
+    duration: "June 2023 - May 2024"
+    bullets:
+      - "Created a fitness tracker bot with leaderboards and activity logs using *Python* (Flask) and the Slack API"
+      - "Deployed with *Docker* to *AWS*, using *terraform* to provision AWS VPC, Lightsail Instance, static IP, and automated backups"
+
   - name: "Personal Portfolio Website"
     technologies: ["TypeScript", "Next.js", "Tailwind CSS"]
     duration: "2023"

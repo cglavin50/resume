@@ -7,6 +7,7 @@
   text(size: 14pt)[Technical Skills]
   v(-1em)
   line(length: 100%, stroke: 0.5pt + gray)
+  v(-0.5em)
 
   pad(left: 1em)[
     #text(size: 10pt, weight: "bold")[Languages: ] #text(size: 10pt)[#languages] \

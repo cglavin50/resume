@@ -1,0 +1,46 @@
+header:
+  title: "FullStack/DevOps Engineer"
+
+experiences:
+  - role: "Software Developer / DevSecOps Engineer"
+    company: "Easy Dynamics Corp"
+    duration: "Jul 2024 -- Present"
+    location: "McLean, VA"
+    bullets:
+      - "Developed *FedRAMP High compliant* infrastructure for federal clients using *Terraform*, ensuring security, reliabilty, and regulatory adherence"
+      - "Built Terraform modules for Azure services (Kubernetes Service, Service Bus, Networking, CDN) accelerating delivery velocity while maintaining NIST 800-53 compliance"
+      - "Engineered *CI/CD pipelines with GitHub Actions* for multi-tenant deployments, including automated security scanning, dependency validation, and Terraform state management"
+      - "Developed cost management solution using Azure Logic Apps, Automation Accounts, and APIs to reduce cloud spending and enforce team best practices"
+  - role: "Research Assistant"
+    company: "Georgetown University SecLab"
+    duration: "Jan 2023 -- May 2024"
+    location: "Washington, DC"
+    bullets:
+      - "Researched secure communication protocols (TCP/IP, DNS, BGP, ESNI, ECH), emphasizing network resiliency and data privacy"
+      - "Implemented a peer-to-peer messaging system in *Go (Libp2p)* with end-to-end encryption, pub/sub messaging, and request proxying"
+  - role: "Software Engineer Intern"
+    company: "Heimdall Data"
+    duration: "Aug 2023 -- Apr 2024"
+    location: "Newark, CA"
+    bullets:
+      - "Improved logging and caching reliability in a database proxy application with *Java*, boosting system performance and traceability"
+      - "Automated customer registration workflows with *Java*, leveraging *AWS APIs* and EC2 metadata, improving customer retention and increasing sales"
+  - role: "Solutions Architect Intern"
+    company: "Telos Corp"
+    duration: "Jun 2022 -- Oct 2022"
+    location: "Ashburn, VA"
+    bullets:
+      - "Automated a security scan ingestion pipeline using *Python + AWS Lambda*, integrating *Wazuh* to company compliance-automation product, enhancing near real-time security monitoring capabilities for federal clients"
+
+projects:
+  - name: "Raspberry Pi Homelab"
+    technologies: ["Ansible", "Docker", "Prometheus", "Grafana"]
+    duration: "2024"
+    bullets:
+      - "Designed and deployed a containerized homelab with firewall automation (UFW), IaC provisioning (*Ansible*), using *Docker* to create segmented networks and Caddy as a reverse proxy"
+      - "Built a monitoring and alerting stack with Prometheus, Grafana, and Discord notifications for incident response"
+
+skills:
+  languages: "Python, Terraform, Typescript, Go, Bash, C#, Java"
+  technologies: "Azure, AWS, GitHub Actions"
+  certifications: "AWS Cloud Practitioner, Azure Fundamentals (AZ-900)"

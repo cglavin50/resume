@@ -4,10 +4,11 @@
 #import "components/projects.typ": *
 #import "components/skills.typ": *
 
-#set page("us-letter", margin: 0.75in)
+#set page("us-letter", margin: 0.5in)
+#set par(leading: 0.5em)
 #set text(font: "Liberation Sans")
 
-#let data = yaml("data/fullstack.yaml")
+#let data = yaml("data/devops.yaml")
 
 #header(data.header.title)
 

@@ -22,7 +22,7 @@
         #box[#text(
             size: 8pt,
           )[#fa-envelope()] #h(0.3em) #link("mailto:cooperglavin@gmail.com")[cooperglavin\@gmail.com]] \
-        #box[#text(size: 8pt)[#fa-github()] #h(0.3em) #link("https://github.com/cglavin50")[cglavin50]]
+        #box[#text(size: 8pt)[#fa-github()] #h(0.3em) #link("https://github.com/cglavin50")[github.com/cglavin50]]
       ]
     ]
   )

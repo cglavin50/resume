@@ -4,12 +4,14 @@
   v(-1em)
   line(length: 100%, stroke: 0.5pt + gray)
 
+  v(-0.5em)
   pad(left: 1.5em)[
     #grid(
       columns: (1fr, auto),
       align: (left, right),
       text(size: 12pt, weight: "bold")[Georgetown University], text(size: 10pt)[Washington, DC],
     )
+    #v(-0.5em)
     #grid(
       columns: (1fr, auto),
       align: (left, right),

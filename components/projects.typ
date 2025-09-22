@@ -12,6 +12,8 @@
     text(size: 10pt)[#duration],
   )
 
+  v(-0.5em)
+
   // Task bullet points with dots and indentation
   pad(left: 1.5em)[
     #for bullet in description [
@@ -24,6 +26,7 @@
   text(size: 14pt)[Projects]
   v(-1em)
   line(length: 100%, stroke: 0.5pt + gray)
+  v(-0.5em)
 
   pad(left: 1.5em)[
     #for entry in entries.pos() [
