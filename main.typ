@@ -8,7 +8,8 @@
 #set par(leading: 0.5em)
 #set text(font: "Liberation Sans")
 
-#let data = yaml("data/devops.yaml")
+// #let data = yaml("data/devops.yaml")
+#let data = yaml("data/fullstack.yaml")
 
 #header(data.header.title)
 
